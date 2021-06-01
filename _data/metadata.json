@@ -1,10 +1,10 @@
 {
-  "title": "This is Rakesh's Blog ",
-  "url": "https://example.com/",
+  "title": "LiveInLove - Jewellery ",
+  "url": "https://silly-thompson-6b4121.netlify.app/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "This is an static page for LiveInLove - The journey of your jewellery quest.",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "The journey of your jewellery quest.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://example.com/"

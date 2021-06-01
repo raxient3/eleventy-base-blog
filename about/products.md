@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About Products
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About Products
   order: 3
 ---
 
-The Journey of your jewellery quest.
+The is about the imitation jewellery.
