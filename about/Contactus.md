@@ -7,9 +7,12 @@ eleventyNavigation:
   order: 3
 ---
 
-<form name="contact" method="POST" data-netlify="true">
+<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
         <fieldset>
             <legend>Contact Us:</legend>
+            <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
             <label for="uname">User name:</label><br>
             <input type="text" id="uname" name="uname"><br><br>
             <label for="email">Email Address :</label><br>
@@ -31,6 +34,7 @@ eleventyNavigation:
             <input type="radio" id="Libra" name="stars" value="Libra">
             <label for="other">Other</label>
             <input type="radio" id="other" name="stars" value="other"><br><br>
+            <div data-netlify-recaptcha="true"></div><br><br>
             <button type="submit">Send</button>
         </fieldset>
 </form>
