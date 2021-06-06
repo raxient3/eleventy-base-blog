@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-<form>
+<form name="contact" method="POST" data-netlify="true">
         <fieldset>
             <legend>Contact Us:</legend>
             <label for="uname">User name:</label><br>
@@ -23,9 +23,7 @@ eleventyNavigation:
             <label for="mails">Mailing list Signup :</label>
             <select id="mails" name="mails" size="2" multiple>
                 <option value="News">News</option>
-                <option value="Offers">Offers</option>
-
-            </select>
+                <option value="Offers">Offers</option></select>
             <p>Star Signs :</p>
             <label for="Aries">Aries</label>
             <input type="radio" id="Aries" name="stars" value="Aries">
@@ -33,9 +31,6 @@ eleventyNavigation:
             <input type="radio" id="Libra" name="stars" value="Libra">
             <label for="other">Other</label>
             <input type="radio" id="other" name="stars" value="other"><br><br>
-
-
             <button type="submit">Send</button>
         </fieldset>
-
-    </form>
+</form>
