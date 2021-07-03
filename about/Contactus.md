@@ -11,7 +11,7 @@ eleventyNavigation:
         <fieldset>
             <legend>Contact Us:</legend>
             <p class="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+              <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
             </p>
             <label for="uname">User name:</label><br>
             <input type="text" id="uname" name="uname"><br><br>
